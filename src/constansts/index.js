@@ -2,8 +2,9 @@
 export const navLinks =   [
                 {label: 'Store'},
                 {label: 'Mac'},
-                {label: 'iphone'},
+                {label: 'iPhone'},
                 {label: 'watch'},
                 {label: 'Vision'},
                 {label: 'Airpods'},
-            ]
+            ];
+export const noChangeParts = []
