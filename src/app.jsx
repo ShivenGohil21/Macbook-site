@@ -28,7 +28,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Showcase from './components/Showcase';
 import Performance from './components/Performance';
-import Feature from './components/Feature';
+import Features from './components/Features';
 import Highlights from './components/Highlights';
 import Footer from './components/Footer';
 
@@ -41,7 +41,7 @@ const App = () => {
         <ProductViewer />
         <Showcase />
         <Performance />
-        <Feature />
+        <Features />
         <Highlights />
         <Footer/>
     </main>

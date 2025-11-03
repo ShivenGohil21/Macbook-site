@@ -16,6 +16,7 @@
 
 
 
+import { texture } from 'three/tsl';
 import  { create } from 'zustand';
 
 const useMackBookStore = create((set) => ({
@@ -25,8 +26,10 @@ const useMackBookStore = create((set) => ({
      scale: 0.08,
     setScale: (scale) => set({ scale }),
 
+    texture: '/videos/feature-1.mp4',
+    setTexture: (texture) => set({ texture }),
 
-    reset: () => set({ color: '2e2c3e', scale: 0.08 })
+    reset: () => set({ color: '2e2c3e', scale: 0.08, texture: '/videos/feature-1.mp4'})
 
 }))
 
