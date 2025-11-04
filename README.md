@@ -1,9 +1,4 @@
 # Macbook-site
-
-Working Model
-
-macbook-site-mi2s-fd408y1u4-shivens-projects-aacaa513.vercel.app
-
 Short summary
 ---------------
 
